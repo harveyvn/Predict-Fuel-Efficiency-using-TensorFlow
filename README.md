@@ -10,6 +10,7 @@ Some techniques applied in this notebook:
 - Handle missing values with SimpleImputer by replacing missing values with the mean value and create a new column ```hp```.
 - Handle categorical variables by using one-hot encode the values in the column with OneHotEncoder class from ```scikit-learn```. 
 - Normalize features that use different scales and ranges by ```tf.keras.layers.Normalization```.
+- Implement few ML models by tensorflow and keras.
 
 Results:
 - A benchmark table compares the performance of different ML models such as linear regression model of every single feature, linear regression of multi features and a deep neural network to decide which one is the best.
