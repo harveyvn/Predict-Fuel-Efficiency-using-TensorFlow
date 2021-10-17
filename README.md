@@ -10,9 +10,10 @@ Some techniques applied in this notebook:
 - Transforming the targets with Box-Cox transformation before learning any linear regression models. Below are before and after pictures of a target transformation.
 <p align="center">
 <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/before.jpg" width="320"/> <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/after.jpg" width="320"/></p>
-- Correlation map to see how features are correlated with each other, especially with ```mpg```.
-- Split the data into training and test sets with ```scikit-learn```.
-- Handle missing values with Simple Imputer by replacing missing values with the mean value and create a new column ```hp```.
+
+- Correlation map to see how features are correlated with each other, especially with ```mpg```. 
+- Split the data into training and test sets with ```scikit-learn```. 
+- Handle missing values with Simple Imputer by replacing missing values with the mean value and create a new column ```hp```. 
 - Handle low cardinality categorical variable by One-Hot Encoder class from ```scikit-learn```. 
 ![Preview](https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/one_hot_encode.jpg)
 
