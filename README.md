@@ -5,7 +5,7 @@ You can see the live version of my notebook on [Kaggle](https://www.kaggle.com/t
 This tutorial uses the Auto MPG dataset and demonstrates how to build different ML models to predict the fuel efficiency of the late-1970s and early 1980s automobiles. This description includes attributes like mpg, cylinders, displacement, horsepower, weight, acceleration, model year, origin, and car name.
 
 Some techniques applied in this notebook:
-- Correlation map to see how features are correlated with each other and with ```mpg```.
+- Correlation map to see how features are correlated with each other, especially with ```mpg```.
 - Split the data into training and test sets with ```scikit-learn```.
 - Handle missing values with SimpleImputer by replacing missing values with the mean value and create a new column ```hp```.
 - Handle categorical variables by using one-hot encode the values in the column with OneHotEncoder class from ```scikit-learn```. 
