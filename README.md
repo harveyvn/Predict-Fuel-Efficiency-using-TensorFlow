@@ -20,4 +20,7 @@ Some techniques applied in this notebook:
 - Implement few ML models by tensorflow and keras.
 
 As a result, a final benchmark table compares the performance of different ML models such as linear regression model of every single feature, linear regression of multi features and a deep neural network to decide which one is the best.
-![Benchmark Table](https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/benchmark.jpg)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/benchmark.jpg" alt="Benchmark Table"/>
+</p>
