@@ -8,8 +8,8 @@ This tutorial uses the Auto MPG dataset and demonstrates how to build different 
 
 Some techniques applied in this notebook:
 - Transforming the targets with Box-Cox transformation before learning any linear regression models. Below are before and after pictures of a target transformation.
-
-<img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/before.jpg" width="300"/> <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/after.jpg" width="300"/> 
+<p align="center">
+<img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/before.jpg" width="320"/> <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/after.jpg" width="320"/></p>
 - Correlation map to see how features are correlated with each other, especially with ```mpg```.
 - Split the data into training and test sets with ```scikit-learn```.
 - Handle missing values with Simple Imputer by replacing missing values with the mean value and create a new column ```hp```.
@@ -27,7 +27,7 @@ As a result, a final benchmark table compares the achievement of different ML mo
 It also illustrates significant enhancements in performance for the horsepower model, the linear regression of multi-features and the deep neural network compared to the tutorial of TensorFlow (0.47 and 3.63, 0.35 and 2.5, 0.23 and 1.7 respectively).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/benchmark.jpg" alt="Benchmark Table"/>
-  <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/benchmark1.jpg" alt="Benchmark Table Tutorial"/>
+  <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/benchmark.jpg" alt="Benchmark Table" width="320"/>
+  <img src="https://raw.githubusercontent.com/harveyvn/Predict-Fuel-Efficiency-using-TensorFlow/main/assets/benchmark1.jpg" alt="Benchmark Table Tutorial" width="320"/>
 </p>
 
